@@ -18,7 +18,7 @@ const CountryDetail = () => {
       const fetchData = async () => {
         try {
           // Fetch country details
-          const response = await fetch(`https://mern-wint.vercel.app/api/country/details/${code}`);
+          const response = await fetch(`https://mern-wint.vercel.app/MERN-WINT-Frontend/api/country/details/${code}`);
           if (!response.ok) {
             throw new Error('Network response was not ok');
           }

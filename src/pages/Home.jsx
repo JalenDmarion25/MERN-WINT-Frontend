@@ -14,7 +14,7 @@ const Home = () => {
   useEffect(() => {
       async function fetchData() {
           try {
-            const response = await fetch('https://mern-wint.vercel.app/api/country');
+            const response = await fetch('https://mern-wint.vercel.app/MERN-WINT-Frontend/api/country');
             if (!response.ok) {
                   throw new Error('Network response was not ok');
               }
