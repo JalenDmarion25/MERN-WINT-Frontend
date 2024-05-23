@@ -8,7 +8,7 @@ const countryCard = ({ country }) => {
 
 
   return (
-    <Link className='card-container' to={`/countryDetail/${country.alpha3Code}`}>
+    <Link className='card-container' to={`/MERN-WINT-Frontend/countryDetail/${country.alpha3Code}`}>
         <img src={country.flag} alt={`${country.name} flag`} />
       <span className='country-name'>{country.name}</span>
       <span className='country-population'>
