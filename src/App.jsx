@@ -18,11 +18,11 @@ function App() {
         <div>
           <Routes>
             <Route 
-              path="/" 
+              path="/MERN-WINT-Frontend/" 
               element={<Home />} 
             />
             <Route 
-              path="/countryDetail/:code" 
+              path="/MERN-WINT-Frontend/countryDetail/:code" 
               element={<CountryDetail/>} 
             />
           </Routes>
